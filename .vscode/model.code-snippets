@@ -1,0 +1,62 @@
+{
+
+	"base_code": {
+		"scope": "cpp",
+		"prefix": "bscode",
+		"body": [
+			"#include<iostream>",
+			"#include<cstring>",
+			"#include<cstdio>",
+			"#include <algorithm>",
+			"using namespace std;",
+			"",
+			"#define LL long long",
+			"#define RG register int",
+			"",
+			"\n",
+			"int main()",
+			"{",
+				"\t${1:}",
+				"\treturn 0;",
+			"}",
+		],
+		"description": "can't use <bits>"
+	},
+	"ACm": {
+		"scope": "cpp",
+		"prefix": "acm",
+		"body": [
+			"#include<bits/stdc++.h>",
+			"using namespace std;",
+			"typedef long long LL;",
+			"#define RG register int",
+			"#define ULL unsigned long long",
+			"\n",
+			"int main()",
+			"{",
+	
+				"\t${1:}",
+				"\treturn 0;",
+			"}",
+		],
+		"description": "init acm code"
+		},
+	"scanf__": {
+			"scope": "cpp",
+			"prefix": "_sc",
+			"body": [
+				"scanf(\"%${1:}\",&);",
+				
+			],
+			"description": "scanf"
+		},
+	"Printf": {
+			"scope": "cpp",
+			"prefix": "_Prf",
+			"body": [
+				"printf(\"%${1:}\",);",
+			],
+			"description": "fast_printf"
+		},
+	
+}

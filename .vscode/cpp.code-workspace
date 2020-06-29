@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "E:\\cpp"
+		},
+		{
+			"path": "E:\\PY"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"iosfwd": "cpp",
+			"iomanip": "cpp",
+			"*.tcc": "cpp"
+		}
+	}
+}
